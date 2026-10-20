@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1%;
+    background-color: rgb(220, 244, 254);
+    font-family: sans-serif;
+}
+
+header{
+    color: white;
+    background-color: rgb(64, 64, 243);
+    height:9%;
+}
+
+#inicio{
+   padding-left: 1%;
+   padding-top: 0.001%;
+   padding-bottom: 0.001%;
+   flex-wrap: wrap;
+}
+
+#inicio p{
+    font-size: smaller;
+}
+
+#forms{
+    margin-top: 1%;
+    padding-left: 30%;
+    height: 100%;
+}
+
+form{
+    width: 60%;
+    padding:1%;
+    gap:10%;
+    background-color: white;
+    color: rgb(0, 0, 91);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#butao{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: smaller;
+    border:0;
+}
+
+#texto{
+    flex-wrap: wrap;
+    display: flex;
+    gap:10%;
+    
+}
+
+#texto textarea{
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #001b56;
+}
+
+
+
+footer{
+    margin-top:1%;
+    color: white;
+    background-color: rgb(64, 64, 243);
+    height:30%;
+    padding: 1%;
+    text-align: center;
+    font-size: small;
+}
+
+.escrito{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.escrito select,.escrito input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom:1%;
+}
